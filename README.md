@@ -1,5 +1,5 @@
 
-# Forever Parallel
+# { forever, parallel, }
 
 <center>![Forever Parallel](https://raw.githubusercontent.com/loveencounterflow/forever-parallel/master/art/forever-parallel.jpeg)</center>
 

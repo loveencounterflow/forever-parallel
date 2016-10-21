@@ -17,8 +17,8 @@ debug                     = CND.get_logger 'debug',     badge
 # require '../interim/node_modules/async.util.onlyonce'
 # require '../interim/node_modules/async.util.restparam'
 # require '../interim/node_modules/async.util.setimmediate'
-@forever        = '../interim/node_modules/async.forever'
-parallel_limit  = '../interim/node_modules/run-parallel-limit'
+@forever        = require '../interim/node_modules/async.forever'
+parallel_limit  = require '../interim/node_modules/run-parallel-limit'
 
 #-----------------------------------------------------------------------------------------------------------
 @series = ( tasks, handler ) -> @parallel tasks, 1, handler

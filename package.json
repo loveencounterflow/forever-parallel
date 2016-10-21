@@ -1,6 +1,6 @@
 {
   "name": "forever-parallel",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "essential asynchronous methods (`forever` and `parallel`; you get `parallel-limit` and `series` for free)",
   "main": "lib/main.js",
   "scripts": {

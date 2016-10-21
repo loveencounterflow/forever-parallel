@@ -1,0 +1,36 @@
+{
+  "name": "forever-parallel",
+  "version": "0.0.0",
+  "description": "Minimal asynchronous methods (`forever` and `parallel`)",
+  "main": "lib/main.js",
+  "scripts": {
+    "build": "coffee --map -o lib -c src",
+    "push": "git add . && git commit -m'update' && git push",
+    "doctoc": "doctoc README.md",
+    "web": "sudo node lib/cli.js web",
+    "pub": "npm run build && npm run doctoc && npm run push && npm version patch && npm publish",
+    "test-travis": "node lib/tests.js",
+    "test": "npm run build && node lib/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/loveencounterflow/forever-parallel.git"
+  },
+  "keywords": [
+    "async",
+    "forever",
+    "parallel"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/loveencounterflow/forever-parallel/issues"
+  },
+  "homepage": "https://github.com/loveencounterflow/forever-parallel",
+  "dependencies": {
+    "cnd": "^4.2.0"
+  },
+  "devDependencies": {
+    "guy-test": "^1.3.2"
+  }
+}

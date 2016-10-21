@@ -1,7 +1,7 @@
 {
   "name": "forever-parallel",
   "version": "0.0.0",
-  "description": "Minimal asynchronous methods (`forever` and `parallel`)",
+  "description": "essential asynchronous methods (`forever` and `parallel`; you get `parallel-limit` and `series` for free)",
   "main": "lib/main.js",
   "scripts": {
     "build": "coffee --map -o lib -c src",

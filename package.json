@@ -28,9 +28,9 @@
   },
   "homepage": "https://github.com/loveencounterflow/forever-parallel",
   "dependencies": {
-    "cnd": "^6.0.0"
+    "cnd": "9.2.1"
   },
   "devDependencies": {
-    "guy-test": "^2.0.1"
+    "guy-test": "4.0.1"
   }
 }
